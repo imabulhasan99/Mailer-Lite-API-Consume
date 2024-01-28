@@ -28,6 +28,10 @@
         <li>Configure your MailerLite API key in the <code>.env</code> file:
             <pre>MAILER_LITE_API_KEY=your_mailer_lite_api_key_here</pre>
         </li>
+        <li>If you want to add users to specific group then open <code>config/maillite.php</code> file:
+            <pre> 'group_id'  => [your group id]</pre>
+        </li>
+        <span>You will get your group id under group name in your dashboard</span>
         <li>Run database migrations:
             <pre>php artisan migrate</pre>
         </li>

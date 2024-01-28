@@ -22,7 +22,6 @@ class AddUserToSubscriberList
      */
     public function handle(Registered $event): void
     {
-        $userData = $event->user;
-        $this->mailerLiteService->addUserToSubscriberList($userData);
+        $this->mailerLiteService->addUserToSubscriberList($event->user);
     }
 }

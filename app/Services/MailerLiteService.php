@@ -8,16 +8,12 @@ class MailerLiteService
 {
     public function addUserToSubscriberList($userData)
     {
-        $response = Http::mailerlite()->post('api/subscribers', [
+        return Http::mailerlite()->post('api/subscribers', [
             'email' => $userData['email'],
             'fields' => [
                'name'  => $userData['name'],
             ],
-            'groups' => [
-                111570690059011758
-            ],
+            'groups' => config('mailerlite.group_id'),
          ]);
-         
-          return $response;
     }
 }
