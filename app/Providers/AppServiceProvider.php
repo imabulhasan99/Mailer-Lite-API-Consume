@@ -21,7 +21,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         Http::macro('mailerlite', function () {
-            return Http::withToken( config('mailerlite.apiKey') )
+            return Http::withToken( config('mailerlite.api_key') )
                     ->baseUrl('https://connect.mailerlite.com/');
         });
     }
