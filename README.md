@@ -11,7 +11,7 @@
     <h2>Installation</h2>
     <ol>
         <li>Clone the repository:
-            <pre>git clone https://github.com/imabulhasan99/https://github.com/imabulhasan99/Mailer-Lite-API-Consume.git</pre>
+            <pre>git clone https://github.com/imabulhasan99/Mailer-Lite-API-Consume.git</pre>
         </li>
         <li>Navigate to the project directory:
             <pre>cd Mailer-Lite-API-Consume</pre>
@@ -42,7 +42,7 @@
         <li>Delete subscribers</li>
         <li>Assign subscribers to different groups</li>
     </ul>
-    <p>To access the admin panel, navigate to <code>/admin</code> in your web browser and log in using your administrator credentials.</p>
+    <p>To access the admin panel, navigate to <code>/dashboard</code> in your web browser and log in using your administrator credentials.</p>
     <h2>Contributing</h2>
     <p>Contributions to the Laravel MailerLite integration project are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.</p>
     <h2>License</h2>
